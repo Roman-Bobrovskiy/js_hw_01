@@ -4,7 +4,6 @@ let totalPrice;
 let message;
 let DroidQuantity = prompt("Enter number");
 totalPrice = DroidQuantity * pricePerDroid;
-console.log(typeof totalPrice);
 if (DroidQuantity === null) {
   message = "Canceled by user!";
   alert(message);
