@@ -6,7 +6,7 @@ let jamaicaPrice = 130;
 let delivery = prompt("Choose a country");
 let deliveryText =
   delivery.charAt(0).toUpperCase() + delivery.slice(1).toLowerCase();
-switch (delivery) {
+switch (delivery.toLowerCase()) {
   case "china":
     alert(
       "Delivery to the" +
